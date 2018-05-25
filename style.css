@@ -1,0 +1,282 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+.top-section {
+    min-height: 22vh;
+    background-color: #2b2b2b;
+    color: #f2f2f2;
+    display: flex;
+}
+
+.header-text {
+    width: 35%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .75rem;
+}
+
+.header-one {
+    width: 5.25rem;
+}
+
+.header-two {
+    width: 6.5rem;
+}
+
+.header-three {
+    width: 5.25rem;
+}
+
+.svgs {
+    height: 1rem;
+    width: 1rem;
+   
+}
+
+.header-links {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.header-links:hover {
+    font-weight: bolder;
+    opacity: 1;
+}
+
+.heads {
+    opacity: .5;
+}
+
+.right-header {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 2rem;
+}
+
+.right-nav {
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2.5rem;
+    padding-top: .5rem;
+}
+
+.nav-input:hover {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.profile-white {
+    padding: 1px 1px;
+    border: .5px solid #f3f3f3;
+    border-radius: 10px;
+    opacity: .5;
+}
+
+.nav-input {
+    color: #2c93cb;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.arrow-svg {
+    height: 0.75rem;
+    width: 0.75rem;
+}
+
+.arrow-svg:hover {
+    height: 1rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+.last-header {
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.winner-text {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    width: 9.5rem;
+    padding-top: 2.5rem;
+}
+
+.ribbon-svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.cards-section {
+    margin: 0 auto;
+    background-color: #efefef;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-header {
+    width: 6rem;
+    padding: 0 1.5rem;
+    color: #4d4d4d;
+    height: 5rem;
+    display: flex;
+    opacity: .75;
+    align-items: center;
+}
+
+.row {
+    /* height: 70vh; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: static;
+    margin: 14px 0;
+    width: 23%;
+    min-width: 300px;
+    height: 32rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    height: 24vh;
+    width: 100%;
+    z-index: 0;
+    opacity: .65;
+}
+
+.next-svg {
+    background-color: white;
+    border-radius: 100px;
+    margin: .5rem .5rem;
+    padding: 1rem 1rem;
+    height: 2.25rem;
+    width: 2.25rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.next-svg:hover {
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.viewer {
+    width: 22%;
+    min-width: 18rem;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.views {
+    margin-top: .25rem;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #2b2b2b;
+}
+
+.view-num {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-right: .5rem;
+    color: #f3f3f3;
+}
+
+.card-text {
+    color: #696969;
+}
+
+.alpaca-name {
+    margin: 15px 2%;
+}
+
+.card-url {
+    background-color: #dfdfdf;
+    min-height: 4rem;
+    width: 90%;
+    margin: 1rem 2.5% ;
+    padding: .5% 2.5% 0;
+    font-size: small;
+
+}
+
+.alpaca-site {
+    color: #696969;
+    text-overflow: hidden;
+    white-space: nowrap;
+}
+
+.alpaca-site:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.card-para {
+    font-size: .7rem;
+    margin: 1.5rem 3% .5rem;
+    width: 30%;
+}
+
+.songs {
+    margin: 0 3%;
+    min-height: 2.4rem;
+}
+
+.song {
+    color: #67B3B3    ;
+    font-size: large;
+}
+
+.song:hover {
+    color: blue;
+}
+
+.attach-num {
+    font-size: xx-large;
+    color: #37bbfe;
+    margin: 0 3%;
+}
+
+@media screen and (max-width: 970px) {
+    .header-text {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .right-header {
+        padding-right: .5rem;
+        margin-bottom: 3rem;
+    }
+}
