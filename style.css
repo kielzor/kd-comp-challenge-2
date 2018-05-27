@@ -270,11 +270,20 @@ h1 {
         justify-content: space-around;
         margin: 0 10px;
     }
+    .cards-header {
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .card {
-        min-width: 361px;
+        min-width: 320px;
     }
-
 }
+
+@media screen and (max-height: 600px) {
+    .top-section {
+        min-height: 160px;
+    }
+}
+
